@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Contact Us - E-commerce Website</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Styles/Form.css">
+    <!-- Google Fonts Roboto -->
+</head>
+
+<body style="padding-top: 110px;">
+
+    <header>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+            <div class="container">
+                <!-- Hamburger Menu Button for Mobile -->
+                <button class="navbar-toggler toggle-btn" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse nav-links" id="navbarNav">
+                    <ul class="text-overlay navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="loginDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Login
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="loginDropdown">
+                                <a class="dropdown-item" href="/login.html?loginType=customer">Customer</a>
+                                <a class="dropdown-item" href="/login.html?loginType=admin">Admin</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="bg-light py-5" style="background: linear-gradient(rgb(197, 227, 250), #72b1f9);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 mb-4 mb-lg-0 order-lg-2">
+                    <!-- Replace the iframe with the updated code -->
+                    <div class="map-container ml-lg-3">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1588.111588730238!2d35.53786488835935!3d33.8382232703139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM2LCsDIyJzM1LjEiTiAxMDDCsDU4JzA3LjkiVw!5e0!3m2!1sen!2sus!4v1595592821414!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="text-center mb-4">Contact Us</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Type your message here" required></textarea>
+                        </div>
+                        <span class="error-message error-icon" id="GeneralError"></span>
+                        <p class="success-message" id="success"></p>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <p class="footer-connect">Connect with us:</p>
+            <div class="footer-social">
+                <a class="footer-icon" href="#"><i class="fab fa-facebook"></i></a>
+                <a class="footer-icon" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="footer-icon" href="#"><i class="fab fa-linkedin"></i></a>
+                <a class="footer-icon" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="footer-rights">&copy; 2023 E-commerce Project. All rights reserved.</p>
+            <p class="footer-by">Website made by Hassan Khadra</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="Scripts/contact.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>E-commerce Website</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Styles/Form.css">
+    <!-- Google Fonts Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+            <div class="container">
+                <!-- Hamburger Menu Button for Mobile -->
+                <button class="navbar-toggler toggle-btn" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Cart icon -->
+
+                <a id="cartContainer" class="navbar-brand">
+                    <div class="cart-container">
+                        <i class="fas fa-shopping-cart cart-icon"></i>
+                        <span class="badge badge-pill badge-danger cart-badge">0</span>
+                    </div>
+                </a>
+                <div id="cartSidebar" class="cart-sidebar">
+                    <button id="closeCartBtn" class="btn btn-sm btn-danger close-btn">Close</button>
+                    <div class="d-flex justify-content-center mt-3">
+                        <button id="checkoutBtn" class="btn btn-sm btn-success checkout-btn" style="display: none;">Checkout</button>
+                    </div>
+                    <span class="error-message error-icon" id="GeneralError"></span>
+                    <div id="cartItemsSection" class="mt-3">
+                        <!-- Cart content goes here -->
+                    </div>
+                </div>
+
+
+                <div class="collapse navbar-collapse nav-links" id="navbarNav">
+                    <ul class="text-overlay navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="loginDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Login
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="loginDropdown">
+                                <a class="dropdown-item" href="/login.html?loginType=customer">Customer</a>
+                                <a class="dropdown-item" href="/login.html?loginType=admin">Admin</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Jumbotron -->
+        <div class="jumbotron jumbotron-fluid bg-primary text-white text-center">
+            <div class="container">
+                <h1 class="display-4">Discover Amazing Deals</h1>
+                <p class="lead">Get the best products at unbeatable prices!</p>
+                <a href="#" class="btn btn-light btn-lg">Shop Now</a>
+            </div>
+        </div>
+
+        <!-- Jumbotron -->
+    </header><!-- Featured Section -->
+    <!-- Popup login form for checkout error -->
+    <div class="modal fade" id="checkoutErrorModal" tabindex="-1" aria-labelledby="checkoutErrorModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="checkoutErrorModalLabel">Login to Checkout</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="loginFormCheckout" class="needs-validation" novalidate>
+                        <div class="mb-3">
+                            <label for="usernameCheckout" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="usernameCheckout" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="passwordCheckout" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="passwordCheckout" required>
+                        </div>
+                        <span class="error-message error-icon" id="GeneralError2"></span>
+                        <p class="success-message" id="success"></p>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <header class="text-center mb-5">
+                <h2>Featured Products</h2>
+                <p>Our top picks for you.</p>
+                <!-- Filtering options -->
+                <div class="row justify-content-center align-items-center mb-4">
+                    <div class="col-md-6">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <label class="input-group-text" for="filterSelect">Filter by Type:</label>
+                            </div>
+                            <select class="custom-select" id="filterSelect">
+                                <option value="all">All</option>
+                                <option value="Accessory">Accessory</option>
+                                <option value="Clothe">Clothe</option>
+                                <option value="Weapon">Weapon</option>
+                                <option value="Shoes">Shoes</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search items by name" id="searchInput">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="button" id="searchBtn">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="row justify-content-center" id="itemCards">
+                <!-- Card structure for featured products -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <p class="footer-connect">Connect with us:</p>
+            <div class="footer-social">
+                <a class="footer-icon" href="#"><i class="fab fa-facebook"></i></a>
+                <a class="footer-icon" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="footer-icon" href="#"><i class="fab fa-linkedin"></i></a>
+                <a class="footer-icon" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="footer-rights">&copy; 2023 E-commerce Project. All rights reserved.</p>
+            <p class="footer-by">Website made by Hassan Khadra</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="Scripts/home.js"></script>
+
+</body>
+</html>

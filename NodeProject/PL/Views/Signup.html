@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Styles/Form.css">
+    <!-- Google Fonts Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Styles/Form.css">
+
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfMdSMpAAAAAAsWKd76RbFSl9oJFlGg8TMJVMHL" async defer></script>
+
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+        <div class="container">
+            <!-- Hamburger Menu Button for Mobile -->
+            <button class="navbar-toggler toggle-btn" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav-links" id="navbarNav">
+                <ul class="text-overlay navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="loginDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Login
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="loginDropdown">
+                            <a class="dropdown-item" href="/login.html?loginType=customer">Customer</a>
+                            <a class="dropdown-item" href="/login.html?loginType=admin">Admin</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="title">
+        <h2>Signup</h2>
+    </div>
+    <div class="form">
+        <h1>Create an Account</h1>
+        <form id="signupForm">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                <span class="error-message error-icon" id="usernameError"></span>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-message error-icon" id="emailError"></span>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <span class="error-message error-icon" id="passwordError"></span>
+            </div>
+            <div class="input-group">
+                <label for="birthdate">Birth Date</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+                <span class="error-message error-icon" id="birthdateError"></span>
+            </div>
+            <div class="input-group">
+                <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+                <span class="error-message error-icon" id="generalError"></span>
+                <p class="success-message" id="Success"></p>
+                <button type="submit">Signup</button>
+            </div>
+        </form>
+
+        <div class="modern-link-container">
+            <a class="modern-link" href="login.html?loginType=customer">Already have an account?</a><br>
+            <span class="link-text">or</span>
+            <a class="modern-link" href="home.html">Back to home page</a>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <p class="footer-connect">Connect with us:</p>
+            <div class="footer-social">
+                <a class="footer-icon" href="#"><i class="fab fa-facebook"></i></a>
+                <a class="footer-icon" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="footer-icon" href="#"><i class="fab fa-linkedin"></i></a>
+                <a class="footer-icon" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="footer-rights">&copy; 2023 E-commerce Project. All rights reserved.</p>
+            <p class="footer-by">Website made by Hassan Khadra</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../Scripts/Signup.js"></script>
+</body>
+  </html>
+  
