@@ -38,3 +38,4 @@ This Node.js E-commerce website project incorporates a 3-layer architecture (Bus
 - FontAwesome
 - jQuery
 - bcrypt
+- Database Design Concepts
