@@ -50,17 +50,25 @@ This Node.js E-commerce website project incorporates a 3-layer architecture (Bus
 ### Screenshots
 Below are some screenshots of the E-Commerce website project:
 
-<p align="center">
-  <img src="screenshots/Screenshot%201.png" alt="Screenshot 1" style="margin: 30px;">
-  <img src="screenshots/Screenshot%202.png" alt="Screenshot 2" style="margin: 300px;">
-  <img src="screenshots/Screenshot%203.png" alt="Screenshot 3" style="margin: 30px;">
-  <img src="screenshots/Screenshot%204.png" alt="Screenshot 4" style="margin: 30px;">
-  <img src="screenshots/Screenshot%205.png" alt="Screenshot 5" style="margin: 30px;">
-  <img src="screenshots/Screenshot%206.png" alt="Screenshot 6" style="margin: 30px;">
-  <img src="screenshots/Screenshot%207.png" alt="Screenshot 7" style="margin: 30px;">
-  <img src="screenshots/Screenshot%208.png" alt="Screenshot 8" style="margin: 30px;">
-  <img src="screenshots/Screenshot%209.png" alt="Screenshot 9" style="margin: 30px;">
-</p>
+<div style="margin-bottom: 20px;">
+  <img src="screenshots/Screenshot%201.png" alt="Screenshot 1" width="45%" style="margin: 10px;">
+  <img src="screenshots/Screenshot%202.png" alt="Screenshot 2" width="45%" style="margin: 10px;">
+</div>
+<div style="margin-bottom: 20px;">
+  <img src="screenshots/Screenshot%203.png" alt="Screenshot 3" width="45%" style="margin: 10px;">
+  <img src="screenshots/Screenshot%204.png" alt="Screenshot 4" width="45%" style="margin: 10px;">
+</div>
+<div style="margin-bottom: 20px;">
+  <img src="screenshots/Screenshot%205.png" alt="Screenshot 5" width="45%" style="margin: 10px;">
+  <img src="screenshots/Screenshot%206.png" alt="Screenshot 6" width="45%" style="margin: 10px;">
+</div>
+<div style="margin-bottom: 20px;">
+  <img src="screenshots/Screenshot%207.png" alt="Screenshot 7" width="45%" style="margin: 10px;">
+  <img src="screenshots/Screenshot%208.png" alt="Screenshot 8" width="45%" style="margin: 10px;">
+</div>
+<div style="margin-bottom: 20px;">
+  <img src="screenshots/Screenshot%209.png" alt="Screenshot 9" width="45%" style="margin: 10px;">
+</div>
 
 ---
 
