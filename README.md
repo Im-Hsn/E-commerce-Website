@@ -2,6 +2,12 @@
 
 This Node.js E-commerce website project incorporates a 3-layer architecture (Business Logic Layer, Data Access Layer, Presentation Layer) to ensure efficient separation of concerns and maintainability of the codebase. Leveraging technologies such as Express.js, Bootstrap, FontAwesome, jQuery, HTML, CSS, and JavaScript, the website offers a seamless and user-friendly online shopping experience.
 
+## Table of Contents
+
+- [Project Highlights](#project-highlights)
+- [Technologies Used](#technologies-used)
+- [Showcase](#showcase)
+
 ## Project Highlights
 
 - **Express.js Integration:**
@@ -25,7 +31,6 @@ This Node.js E-commerce website project incorporates a 3-layer architecture (Bus
 - **Asynchronous Web Interactions:**
   - Implemented asynchronous web interactions using AJAX to enhance the responsiveness of the website.
 
-
 ## Technologies Used
 
 - Node.js
@@ -39,3 +44,22 @@ This Node.js E-commerce website project incorporates a 3-layer architecture (Bus
 - jQuery
 - bcrypt
 - Database Design Concepts
+
+## Showcase
+
+### Screenshots
+Below are some screenshots of the E-Commerce website project:
+
+![Screenshot 1](screenshots/Screenshot%201.png)
+![Screenshot 2](screenshots/Screenshot%202.png)
+![Screenshot 3](screenshots/Screenshot%203.png)
+![Screenshot 4](screenshots/Screenshot%204.png)
+![Screenshot 5](screenshots/Screenshot%205.png)
+![Screenshot 6](screenshots/Screenshot%206.png)
+![Screenshot 7](screenshots/Screenshot%207.png)
+![Screenshot 8](screenshots/Screenshot%208.png)
+![Screenshot 9](screenshots/Screenshot%209.png)
+
+---
+
+[**Return to Top**](#e-commerce-website-project)
