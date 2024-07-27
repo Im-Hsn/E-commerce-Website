@@ -52,7 +52,7 @@ Below are some screenshots of the E-Commerce website project:
 
 <p align="center">
   <img src="screenshots/Screenshot%201.png" alt="Screenshot 1" style="margin: 30px;">
-  <img src="screenshots/Screenshot%202.png" alt="Screenshot 2" style="margin: 30px;">
+  <img src="screenshots/Screenshot%202.png" alt="Screenshot 2" style="margin: 300px;">
   <img src="screenshots/Screenshot%203.png" alt="Screenshot 3" style="margin: 30px;">
   <img src="screenshots/Screenshot%204.png" alt="Screenshot 4" style="margin: 30px;">
   <img src="screenshots/Screenshot%205.png" alt="Screenshot 5" style="margin: 30px;">
