@@ -50,25 +50,23 @@ This Node.js E-commerce website project incorporates a 3-layer architecture (Bus
 ### Screenshots
 Below are some screenshots of the E-Commerce website project:
 
-<div style="margin-bottom: 20px;">
-  <img src="screenshots/Screenshot%201.png" alt="Screenshot 1" width="45%" style="margin: 10px;">
-  <img src="screenshots/Screenshot%202.png" alt="Screenshot 2" width="45%" style="margin: 10px;">
-</div>
-<div style="margin-bottom: 20px;">
-  <img src="screenshots/Screenshot%203.png" alt="Screenshot 3" width="45%" style="margin: 10px;">
-  <img src="screenshots/Screenshot%204.png" alt="Screenshot 4" width="45%" style="margin: 10px;">
-</div>
-<div style="margin-bottom: 20px;">
-  <img src="screenshots/Screenshot%205.png" alt="Screenshot 5" width="45%" style="margin: 10px;">
-  <img src="screenshots/Screenshot%206.png" alt="Screenshot 6" width="45%" style="margin: 10px;">
-</div>
-<div style="margin-bottom: 20px;">
-  <img src="screenshots/Screenshot%207.png" alt="Screenshot 7" width="45%" style="margin: 10px;">
-  <img src="screenshots/Screenshot%208.png" alt="Screenshot 8" width="45%" style="margin: 10px;">
-</div>
-<div style="margin-bottom: 20px;">
-  <img src="screenshots/Screenshot%209.png" alt="Screenshot 9" width="45%" style="margin: 10px;">
-</div>
+![Screenshot 1](screenshots/Screenshot%201.png)
+---
+![Screenshot 2](screenshots/Screenshot%202.png)
+---
+![Screenshot 3](screenshots/Screenshot%203.png)
+---
+![Screenshot 4](screenshots/Screenshot%204.png)
+---
+![Screenshot 5](screenshots/Screenshot%205.png)
+---
+![Screenshot 6](screenshots/Screenshot%206.png)
+---
+![Screenshot 7](screenshots/Screenshot%207.png)
+---
+![Screenshot 8](screenshots/Screenshot%208.png)
+---
+![Screenshot 9](screenshots/Screenshot%209.png)
 
 ---
 
